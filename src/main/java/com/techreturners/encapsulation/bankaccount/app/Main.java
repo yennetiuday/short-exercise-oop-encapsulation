@@ -32,7 +32,7 @@ public class Main {
         System.out.println("Wow! We're rich!");
 
         System.out.println("Let's make a lot of money right now! Let's change the account balance directly!");
-        myDodgyBankAccount.accountBalance = 1000000;
+        myDodgyBankAccount.getAccountBalance();
         myDodgyBankAccount.getAccountBalance();
         System.out.println("😻 Weeeeee!!!!\n");
 
@@ -52,14 +52,14 @@ public class Main {
 
         System.out.println("Let's be naughty and add rewards without depositing!");
         System.out.println("Oh no :( It looks like we can't do this - it's too secure!");
-        /*mySecureBankAccount.addReward();
         mySecureBankAccount.addReward();
-        mySecureBankAccount.addReward();*/
+        mySecureBankAccount.addReward();
+        mySecureBankAccount.addReward();
         mySecureBankAccount.displayAccountBalance();
 
         System.out.println("Let's make a lot of money right now! Let's change the account balance directly!");
         System.out.println("Oh no :( It looks like we can't do this - it's too secure!");
-        //mySecureBankAccount.accountBalance = 1000000;
+        mySecureBankAccount.displayAccountBalance();
         mySecureBankAccount.displayAccountBalance();
         System.out.println("😹 Well I guess that's secure!");
     }

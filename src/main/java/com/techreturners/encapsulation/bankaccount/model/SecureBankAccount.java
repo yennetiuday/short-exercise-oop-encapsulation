@@ -24,7 +24,7 @@ public class SecureBankAccount {
         accountBalance -= amount;
     }
 
-    private void addReward() {
+    public void addReward() {
         accountBalance += REWARDAMOUNT;
     }
 }

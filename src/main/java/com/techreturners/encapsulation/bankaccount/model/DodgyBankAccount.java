@@ -2,9 +2,9 @@ package com.techreturners.encapsulation.bankaccount.model;
 
 public class DodgyBankAccount {
 
-    public String accountNumber;
-    public int accountBalance;
-    public int rewardAmount = 50;
+    private String accountNumber;
+    private int accountBalance;
+    private int rewardAmount = 50;
 
     public DodgyBankAccount(String accountNumber) {
         this.accountNumber = accountNumber;
